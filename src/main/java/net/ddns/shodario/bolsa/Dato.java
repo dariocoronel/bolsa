@@ -1,7 +1,6 @@
 package net.ddns.shodario.bolsa;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 public class Dato {
     private LocalDateTime fecha;

@@ -1,6 +1,5 @@
 package net.ddns.shodario.bolsa;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Operacion {
@@ -9,7 +8,7 @@ public class Operacion {
 
     Double smaShort, smaLong;
     Double macdFast, macdSlow, macd, macdSignal, macdHistogram;
-    boolean señalCompra, señalVenta;
+    boolean senalCompra, senalVenta;
 
     Operacion(LocalDateTime fecha, Double precio) {
         this.fecha = fecha;
@@ -24,7 +23,7 @@ public class Operacion {
         return precio;
     }
 
-    public Boolean getSeñalCompra() {
-        return señalCompra;
+    public Boolean getSenalCompra() {
+        return senalCompra;
     }
 }

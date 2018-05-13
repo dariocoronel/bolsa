@@ -1,6 +1,5 @@
 package net.ddns.shodario.bolsa.controladores;
 
-import net.ddns.shodario.bolsa.InfoEstrategia;
 import net.ddns.shodario.bolsa.Procesador;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;

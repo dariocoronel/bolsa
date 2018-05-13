@@ -4,8 +4,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 public class Accion {
@@ -106,9 +104,9 @@ public class Accion {
         if (operacionesCierre.size() == MACD_SLOW + MACD_SIGNAL + 1) {
             double histogramAnterior = operacionesCierre.get(operacionesCierre.size() - 2).macdHistogram;
             if (histogramAnterior < 0 && operacion.macdHistogram > 0)
-                operacion.señalCompra = true;
+                operacion.senalCompra = true;
             if (histogramAnterior > 0 && operacion.macdHistogram < 0)
-                operacion.señalVenta = true;
+                operacion.senalVenta = true;
         }
     }
 
