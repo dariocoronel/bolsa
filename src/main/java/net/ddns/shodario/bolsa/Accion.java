@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Accion {
     private final static int MACD_FAST = 12, MACD_SLOW = 26, MACD_SIGNAL = 9;
-    private final static int SMA_SHORT = 50, SMA_LONG = 200;
+    private final static int SMA_SHORT = 50, SMA_LONG = 201;
 
     private String nombre;
     private List<Operacion> precios = new ArrayList<>();
